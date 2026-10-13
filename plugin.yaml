@@ -1,0 +1,9 @@
+name: lightningai
+kind: model-provider
+version: 1.0.0
+description: Lightning AI — OpenAI-compatible gateway (live model catalog via /models)
+author: dino
+maintainer: dino
+requires_hermes: ">=0.21.5"
+requires_env:
+- LIGHTNING_API_KEY
